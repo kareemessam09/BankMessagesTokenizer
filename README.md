@@ -403,7 +403,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - **Documentation**: [GitHub Wiki](https://github.com/kareemessam09/BankMessageTokinizer/wiki)
 - **Issues**: [GitHub Issues](https://github.com/kareemessam09/BankMessageTokinizer/issues)
-- **Email**: kareem.essam09@example.com
+- **Email**: kareemessam.me@gmail.com
 
 ## 🏆 Acknowledgments
 
