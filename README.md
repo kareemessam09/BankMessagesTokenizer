@@ -163,48 +163,6 @@ val entities = library.extractEntities(bankMessage)
 // Auto-create accounting entries: Amount, Vendor, Date
 ```
 
-### 🔍 Risk & Security Applications
-
-#### **Fraud Detection Systems**
-- **Pattern Recognition**: Identify unusual transaction patterns
-- **Real-time Alerts**: Flag suspicious amounts or merchants
-- **Card Security**: Monitor masked card number usage patterns
-
-#### **Credit Scoring Enhancement**
-```kotlin
-// Enhance credit decisions with transaction analysis
-val bankingHistory = "Regular salary SAR 5000, consistent savings SAR 1000"
-// Extract income patterns for credit assessment
-```
-
-### 📊 Business Intelligence & Analytics
-
-#### **Market Research**
-- **Consumer Spending Analysis**: Track merchant categories and spending
-- **Regional Economic Indicators**: Analyze transaction patterns by geography
-- **Currency Exchange Monitoring**: Track multi-currency transaction volumes
-
-#### **Financial Product Development**
-```kotlin
-// Design products based on customer transaction patterns
-val customerTransactions = extractBatchEntities(monthlyMessages)
-// Identify opportunities for new banking products
-```
-
-### 🏪 Retail & E-commerce
-
-#### **Payment Processing Integration**
-- **Transaction Reconciliation**: Match payments with orders automatically
-- **Customer Purchase Analysis**: Extract spending patterns from notifications
-- **Loyalty Program Enhancement**: Track customer spending across channels
-
-#### **Supply Chain Finance**
-```kotlin
-// Track supplier payments and terms
-val paymentMessages = extractEntitiesFromSupplierNotifications()
-// Optimize payment terms and cash flow
-```
-
 ### 📱 Mobile Banking Applications
 
 #### **Smart Notifications**
@@ -230,25 +188,6 @@ val entities = library.extractEntities(internationalTransfer)
 // Extract: Banks, Amount, Currency, Countries
 ```
 
-#### **Islamic Banking Compliance**
-- **Sharia-Compliant Transaction Analysis**: Categorize halal/haram merchants
-- **Sukuk Bond Processing**: Extract Islamic finance instrument details
-- **Zakat Calculation**: Analyze wealth and transaction patterns
-
-### 🔬 Research & Development
-
-#### **Financial NLP Research**
-- **Model Training**: Use extracted entities for training new NLP models
-- **Benchmarking**: Compare entity extraction performance across languages
-- **Academic Research**: Financial text mining and analysis
-
-#### **Regulatory Technology (RegTech)**
-```kotlin
-// Automated regulatory reporting
-val transactions = extractMonthlyTransactions()
-// Generate compliance reports automatically
-```
-
 ### 📈 Success Metrics by Industry
 
 | Industry | Primary Use Case | Expected ROI |
@@ -259,28 +198,6 @@ val transactions = extractMonthlyTransactions()
 | **Investment Firms** | Portfolio analysis & reporting | 30-50% time savings in research |
 | **Insurance Companies** | Claims processing automation | 45-65% faster claims processing |
 
-### 🚀 Getting Started by Use Case
-
-#### For Banking Systems:
-```bash
-# Production deployment
-docker-compose up -d
-# Integrate with existing transaction processing
-```
-
-#### For Fintech Apps:
-```bash
-# Add as dependency
-implementation("com.kareemessam09:bank-message-tokenizer:1.0.0")
-# Process user banking messages
-```
-
-#### For Research Projects:
-```bash
-# Clone and experiment
-git clone https://github.com/kareemessam09/BankMessageTokinizer.git
-# Analyze your own banking message datasets
-```
 
 ## 📈 Performance Benchmarks
 
